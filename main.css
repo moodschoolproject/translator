@@ -1,0 +1,26 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+* {
+	font-family: "Share Tech Mono", monospace;
+}
+
+.center {
+	margin: auto 0;
+	text-align: center;
+}
+
+.imp {
+	color: red;
+	font-weight: bolder;
+}
+
+#inputencode,
+#inputdecode {
+	width: 12.5%;
+	min-height: 100px;
+	text-align: left;
+	resize: vertical;
+}
