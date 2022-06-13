@@ -19,7 +19,7 @@ body {
 
 #inputencode,
 #inputdecode {
-	width: 12.5%;
+	width: 25%;
 	min-height: 100px;
 	text-align: left;
 	resize: vertical;
