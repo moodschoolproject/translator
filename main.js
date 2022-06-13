@@ -16,7 +16,7 @@ encode.addEventListener("click", () => {
 function decodeText(text) {
 	let decodedText = "";
 	for (let i = 0; i < text.length; i++) {
-		decodedText += String.fromCharCode(text.charCodeAt(i) - 1);
+		decodedText += String.fromCharCode(text.charCodeAt(i) - 3);
 	}
 	return decodedText;
 }
@@ -24,7 +24,7 @@ function decodeText(text) {
 function encodeText(text) {
 	let encodedText = "";
 	for (let i = 0; i < text.length; i++) {
-		encodedText += String.fromCharCode(text.charCodeAt(i) + 1);
+		encodedText += String.fromCharCode(text.charCodeAt(i) + 3);
 	}
 	return encodedText;
 }
